@@ -3,5 +3,7 @@
         <file>main.qml</file>
         <file>Schueler.qml</file>
         <file>Pfeil.qml</file>
+        <file>Spielfeld.qml</file>
+        <file>Eingabe.qml</file>
     </qresource>
 </RCC>
