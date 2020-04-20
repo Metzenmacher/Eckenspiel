@@ -6,9 +6,9 @@ import Satz 1.0
 Item {
     Rectangle {
         id: ecke1a
+        width: 210
         anchors.top: parent.top
         anchors.right: parent.right
-        width: parent.width / 8
         height: parent.height / 10
         color: "#afa"
     }
@@ -18,10 +18,10 @@ Item {
     }
     Rectangle {
         id: ecke1b
+        width: 210
         anchors.top: parent.top
         anchors.right: ecke1a.left
-        anchors.rightMargin: 100
-        width: parent.width / 8
+        anchors.rightMargin: 40
         height: parent.height / 10
         color: "#afa"
     }
@@ -33,10 +33,10 @@ Item {
 
     Rectangle {
         id: ecke2a
+        width: 210
         anchors.top: parent.top
         anchors.left: ecke2b.right
-        anchors.leftMargin: 100
-        width: parent.width / 8
+        anchors.leftMargin: 40
         height: parent.height / 10
         color: "#ff8"
     }
@@ -46,9 +46,9 @@ Item {
     }
     Rectangle {
         id: ecke2b
+        width: 210
         anchors.top: parent.top
         anchors.left: parent.left
-        width: parent.width / 8
         height: parent.height / 10
         color: "#ff8"
     }
@@ -60,9 +60,9 @@ Item {
 
     Rectangle {
         id: ecke3a
+        width: 210
         anchors.bottom: parent.bottom
         anchors.left: parent.left
-        width: parent.width / 8
         height: parent.height / 10
         color: "#fa6"
     }
@@ -72,10 +72,10 @@ Item {
     }
     Rectangle {
         id: ecke3b
+        width: 210
         anchors.bottom: parent.bottom
         anchors.left: ecke3a.right
-        anchors.leftMargin: 100
-        width: parent.width / 8
+        anchors.leftMargin: 40
         height: parent.height / 10
         color: "#fa6"
     }
@@ -88,9 +88,9 @@ Item {
     Rectangle {
         id: pult
         color: "#f44"
+        width: 210
         anchors.verticalCenter: ecke3b.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
-        width: parent.width / 8
         height: parent.height / 10
         Text {
             anchors.fill: parent
