@@ -95,7 +95,10 @@ Item {
             text: enabled ? "los geht's mit '" + globalStore.kapitel + "' -->" : "bitte erst Kapitel auswählen"
             enabled: listView.count > 0
             Layout.fillWidth: true
-            onClicked: stackView.push("qrc:/Spielfeld.qml")
+            onClicked: stackView.push(spielfeld)
+
+
+
         }
 
     }

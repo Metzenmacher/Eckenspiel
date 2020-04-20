@@ -28,7 +28,15 @@ Window {
     StackView {
         id: stackView
         anchors.fill: parent
-        initialItem: "qrc:/Eingabe.qml"
+        initialItem: eingabe
+    }
+    Eingabe{
+        id: eingabe
+        visible: false
+    }
+    Spielfeld{
+        id: spielfeld
+        visible: false
     }
 
 }
